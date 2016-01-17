@@ -1,0 +1,32 @@
+.menu{
+    list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.menu li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	position:relative;
+	left: 10px;
+	box-shadow: 2px 2px 4px 1px #000;	
+}
+.menu li a{
+	display: block;
+	width: 85%;/*ancho de la caja*/
+	height: 20px;/*alto de la caja*/
+	padding: 6px;
+	line-height:30px;
+	text-decoration: none;/*no se muestra la linea de enlace*/
+	text-align: center;
+	color:black;/*color de la letra*/
+	background-color: ##F42323;/*color de fondo de la caja*/
+	border-left: 2px solid #333;
+ 
+}
+.menu li a:hover{
+	/*color cuando estas encima de la caja*/
+	background-color:#F6CF35;
+	font-weight: bold;
+}
+
